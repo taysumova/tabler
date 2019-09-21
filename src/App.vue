@@ -5,11 +5,20 @@
 </template>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  color: rgba(0, 0, 0, 0.89);
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  padding: 44px 41px;
 }
 </style>
