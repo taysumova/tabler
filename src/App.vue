@@ -20,5 +20,16 @@ body {
   font-weight: 400;
   line-height: 17px;
   padding: 44px 41px;
+  .error-block {
+    border: 1px solid;
+    font-size: 16px;
+    color: #ee514a;
+    padding: 1rem;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+  }
 }
 </style>
